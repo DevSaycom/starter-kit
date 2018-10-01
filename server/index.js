@@ -1,1 +1,6 @@
-console.log("hola 3");
+import express from 'express'
+const app = express()
+
+app.listen(3000, () => {
+  console.log('corriendo en puerto 3000')
+})
